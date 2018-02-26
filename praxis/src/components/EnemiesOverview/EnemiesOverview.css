@@ -7,9 +7,17 @@
 
 .enemies-overview-text {
     overflow: hidden;
+    font-weight: bolder ;
+    color:antiquewhite;
+    font-size: medium;
     display: -webkit-box;
     -webkit-line-clamp: 5;
     /* autoprefixer: off */
     -webkit-box-orient: vertical;
     /* autoprefixer: on */
 }
+
+.enemies-overview-enlaces{
+    color: #ccc; 
+}
+

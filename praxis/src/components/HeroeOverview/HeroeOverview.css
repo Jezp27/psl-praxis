@@ -7,9 +7,16 @@
 
 .heroe-overview-text {
     overflow: hidden;
+    color:antiquewhite;
+    font-weight: bolder;
+    font-size: medium;
     display: -webkit-box;
     -webkit-line-clamp: 5;
     /* autoprefixer: off */
     -webkit-box-orient: vertical;
     /* autoprefixer: on */
+}
+
+.heroe-overview-enlaces{
+    color: #ccc;
 }

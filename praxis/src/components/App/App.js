@@ -32,11 +32,12 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
         </header>
-        <h2>Heroes</h2>
+        <h1>Heroes</h1>
         <div className="heroes-list">
           {listHeroes}
         </div>
-        <h2>Enemies</h2>
+        <hr/>
+        <h1>Enemies</h1>
         <div className="enemies-list">
           {listEnemies}
         </div> 
